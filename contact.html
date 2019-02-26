@@ -10,7 +10,7 @@
 ** Résumé
 -->
 <head>
-  <link rel="icon" href="./images_sites/camera.ico">
+  <link rel="icon" href="./favicon-96x96.ico">
   <title>Contact
   </title>
    <meta charset="Utf-8">
@@ -23,13 +23,56 @@
      Javascript
           -->
           <style type="text/css">
+          a:link {
+           text-decoration: none;
+           color: black;
+         }
+
+           a:visited {
+           text-decoration: none;
+           color: darkred;
+         }
+
+           a:hover {
+           text-decoration: underline;
+           color: black;
+         }
+
+           a:active {
+           text-decoration: underline;
+           color: blue;
+         }
+         @font-face {
+           font-family: Bazar1;
+           src: url(Bazar1.ttf); 
+          }
+          
+            body {
+              background-image: url("COURRIELS.jpg");
+            font-size:18px;
+            color:#000000;
+            }
+          h1 {
+            position: relative;
+            top:30px;
+            font-family: Bazar1;
+            color:#000000;
+            size:6px;
+            }
+          div {
+            position: relative;
+            color: royalblue;
+            top: 150px;
+            left:10px;
+
+            }
 
    </style>
   </head>
 
   <!--<body bgcolor="#81BEF7">-->
-  <body background="./COURRIELS.jpg">
-    <center><h1>Contact</h1>
+  <body>
+    <center><h1>CONTACT</h1>
    <!--  <form method="post" action="formcv.php" >
         <div>
           <label for="nom">Nom:</label> 
@@ -46,9 +89,9 @@
           <button type="submit">Envoyez votre message</button>
         </div>
     </form>
--->
-      Pour tous renseignements vous pouvez me contacter par mail </br>
-    <a href="mailto:Samkurgan@gmail.com ?subject=Proposition de stage">Contact Mail</a> </br>
-    </center>
+--></center>
+      <div><center>Pour tous renseignements vous pouvez me contacter par mail </br>
+    <a href="mailto:Samkurgan@gmail.com ?subject=Proposition d'emploi">Contact Mail</a> </center></div></br>
+    
     </body>
     </html>
